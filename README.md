@@ -15,6 +15,7 @@
 
 <p align="justify">
 This app allows users to quickly and easily check the current weather conditions for their location, as well as see a forecast for the next few days. The app is built using the latest technologies, including HTML, CSS, and JavaScript, and makes use of a reliable third-party weather API to retrieve accurate and up-to-date weather data. <br>
+The user simply have to enter the location whose weather details the user want to find the textbox. While searching the textbox will be populated with the city of that the user want to find. Then the system will show us the status by changing the icon and displaying the values for Wind, Temperature and Precipitation/Humidity. Based on the location, the unit of measurement will change depending on the state or city of the country.
 </p>
 
 
@@ -37,7 +38,7 @@ Following are some of the new features and learning encountered while creating t
 <br>
 Follwing resources have been used in maintaining this project:
 
-- Write points here
+- [OpenWeatherMap API](https://openweathermap.org/) to get the weather details using requests to the server and getting responses as details of the weather.
 
 
 <br><br>
@@ -85,7 +86,10 @@ You can exclusively watch the video on this project from the making to deploying
 <br>
 Follwing technologies have been used at the core of this application to make it stand in the market place:
 
-- Write points here
+- HTML
+- CSS
+- JavaScript
+- Open Weather Map API
 
 
 <br><br>
