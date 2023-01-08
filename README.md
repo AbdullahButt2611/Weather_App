@@ -27,7 +27,17 @@ The user simply have to enter the location whose weather details the user want t
 <br>
 Following are some of the new features and learning encountered while creating this amazing project:
 
-- Write points here
+- The background image is chosen randomly using unsplash feature by importing the following code in css file:
+```
+body{
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+```
+- The API calling sequence statement was 
+```
+https://api.openweathermap.org/data/2.5/weather?q={city-name}&appid={api-key}&units=metric
+```
+- Provided completed support to all the cities of all the countries.
 
 
 <br><br>
@@ -39,6 +49,9 @@ Following are some of the new features and learning encountered while creating t
 Follwing resources have been used in maintaining this project:
 
 - [OpenWeatherMap API](https://openweathermap.org/) to get the weather details using requests to the server and getting responses as details of the weather.
+- [BoxIcons](https://boxicons.com/) to import the icons inside the project.
+- [Google Fonts](https://fonts.google.com/specimen/Open+Sans?query=open+sans) to import the Open Sans Font into the CSS file
+- [Unsplash](https://unsplash.com/) to randomly pick the background image using their API
 
 
 <br><br>
@@ -73,7 +86,8 @@ You can exclusively watch the video on this project from the making to deploying
 
 
 ### GUI
-![GUI for this Project](path)
+![GUI for this Project](/img/demo.png
+)
 
 
 <br><br>
