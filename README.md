@@ -63,7 +63,7 @@ Follwing resources have been used in maintaining this project:
 ### Demo
 <p align="justify">
   The Demo of this working portfolio can be found on <br>
-  [https://rebrand.ly/](https://rebrand.ly/ )
+  <a href = "https://rebrand.ly/WeatherApp_MABCORP">https://rebrand.ly/WeatherApp_MABCORP</a>
 </p>
 
 
