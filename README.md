@@ -15,7 +15,8 @@
 
 <p align="justify">
 This app allows users to quickly and easily check the current weather conditions for their location, as well as see a forecast for the next few days. The app is built using the latest technologies, including HTML, CSS, and JavaScript, and makes use of a reliable third-party weather API to retrieve accurate and up-to-date weather data. <br>
-The user simply have to enter the location whose weather details the user want to find the textbox. While searching the textbox will be populated with the city of that the user want to find. Then the system will show us the status by changing the icon and displaying the values for Wind, Temperature and Precipitation/Humidity. Based on the location, the unit of measurement will change depending on the state or city of the country.
+The user simply have to enter the location whose weather details the user want to find the textbox. While searching the textbox will be populated with the city of that the user want to find. Then the system will show us the status by changing the icon and displaying the values for Wind, Temperature and Precipitation/Humidity. Based on the location, the unit of measurement will change depending on the state or city of the country. The app has also been made functional to search for the city on the <strong>Enter Key<strong/> press. <br>
+In the starting, the app is defined to bring the details of <strong>Islamabad<strong/>. While the fetch request is proceeding, the content will display a loading... content to show the user that the request generated in in process. After searching the background image will change corresponding to the searched city.
 </p>
 
 
@@ -38,6 +39,7 @@ body{
 https://api.openweathermap.org/data/2.5/weather?q={city-name}&appid={api-key}&units=metric
 ```
 - Provided completed support to all the cities of all the countries.
+- Search is implemented on Enter key press.
 
 
 <br><br>
@@ -86,8 +88,7 @@ You can exclusively watch the video on this project from the making to deploying
 
 
 ### GUI
-![GUI for this Project](/img/demo.png
-)
+![GUI for this Project](/img/demo.png)
 
 
 <br><br>
@@ -112,7 +113,7 @@ Follwing technologies have been used at the core of this application to make it 
 
 ### Advancement
 
-> Text here
+> If no response is got, then the error message should be displayed.
 
 <br><br>
 <!-- ................................................................................................................................. -->
